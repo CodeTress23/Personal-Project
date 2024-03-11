@@ -15,10 +15,10 @@
         <img src="public/images/Cream  Black Modern Monogram Initial Name Logo.png" alt="website Logo">
         <header>
             <div class="nav-bar">
-                <p><a href="index.html">Home</a></p>
-                <p><a href="about.html">About</a></p>
-                <p><a href="login.html">Login</a></p>
-                <p><a href="resources.html">Resources</a></p>
+                <p class="navigating"><a href="index.html">Home</a></p>
+                <p class="navigating"><a href="about.html">About</a></p>
+                <p class="navigating"><a href="login.html">Login</a></p>
+                <p class="navigating"><a href="resources.html">Resources</a></p>
             </div>
         </header>
     </nav>
@@ -27,6 +27,14 @@
             <h2>Sign-up</h2>
             <form>
                 <div class="form-flex-div">
+                    <label for="First Name">First Name:</label>
+                    <input type="First Name" name="First Name" id="First Name" placeholder="First Name">
+                </div>
+                <div class="form-flex-div">
+                    <label for="Last Name">Last Name:</label>
+                    <input type="Last Name" name="Last Name" id="Last Name" placeholder="Last Name">
+                </div>
+                <div class="form-flex-div">
                     <label for="Email">E-mail Address:</label> 
                     <input type="email" name="Email" id="Email" action="#" placeholder="Email">
                 </div>
@@ -34,26 +42,34 @@
                     <label for="Password">Password:</label>
                     <input type="password" name="Password" id="Password" placeholder="Password">
                 </div>
-                <div class="form-flex-div">
-                    <label for="Name">Name:</label>
-                    <input type="Name" name="Name" id="Name" placeholder="Name">
-                </div>
+                
 
                  <button>Submit</button>
                  <br>
-                 <a href="login.html">Already have an account?</a>
+                 <p class="sign-up-link">
+                    <a href="login.html">Already have an account?</a>
+                </p>
+                 
             </form>
            
         </div>
     </main>
     <footer>
-        <p class="footer-link">
-            <a href="#">Facebook <i class="fa-brands fa-facebook"></i></a>
-            <br>
-            <a href="#">Instagram <i class="fa-brands fa-instagram"></i></a>
-            <br>
-            <a href="#">Twitter <i class="fa-brands fa-twitter"></i></a>
-        </p>   
+        <div class=" footer-link">
+            <h4>Visit Us</h4>
+            <p>
+                <a href="https://github.com/CodeTress23">Github  <i class="fa-brands fa-github"></i></a>
+            </p>
+        </div>
+        <div class="footer-link">
+            <h4>Social Media</h4>
+            <p>   
+                <a href="#">Facebook  <i class="fa-brands fa-facebook"></i></a>
+                <br>
+                <a href="#">Instagram  <i class="fa-brands fa-instagram"></i></a>
+                <br>
+                <a href="#">Twitter  <i class="fa-brands fa-twitter"></i></a>
+            </p>   
     </footer>
 </body>
 </html>
